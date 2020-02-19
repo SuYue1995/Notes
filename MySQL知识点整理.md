@@ -14,8 +14,8 @@
   * [4.1 B+Tree](#41-b-tree)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-[TOC]
-存储引擎、事务、锁、索引
+
+
 # 1 存储引擎
 MySQL是基于存储引擎的数据库。MySQL 5.1 开始，默认InnoDB，5.1 之前 MyISAM。InnoDB典型优势在于支持事务。NDB支持集群，MySQL很少做集群，需要考虑分布式事务。
 
